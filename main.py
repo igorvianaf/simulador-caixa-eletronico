@@ -13,6 +13,7 @@ c1 = Cliente(nome, n_conta)
 conta = Conta(c1.get_nome(), 1233211)
 
 #utilizando os metodos da classe conta
+#em conta deposito foi atribuido o valor da conta do cliente
 conta.deposito(1500)
 conta.saque(valor_saque)
 conta.extrato()
